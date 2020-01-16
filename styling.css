@@ -1,0 +1,81 @@
+/* First page */
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 58%;
+  font-size: 16pt;
+}
+
+li {
+  display: inline;
+  border-radius: 15px;
+  background: mistyrose;
+  opacity: 0.8;
+  font-size: 16pt;
+  font-family: "cormorant garamond";
+  margin: 10x;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "cormorant garamond";
+  font-size: 28pt;
+  color: black;
+  background: mistyrose;
+  padding: 2%;
+  top: 70%;
+  width: 80%;
+  border-radius: 15px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+h1 {
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 38pt;
+  font-family: "cormorant garamond";
+}
+
+/*Contact*/
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  border: 2px solid black;
+  width: 350px;
+  font-size: 20pt;
+  font-family: "cormorant garamond";
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: green;
+  background-color: mistyrose;
+  font-family: "cormorant garamond";
+  font-size: 14pt;
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 0 70px;
+}
+
+input[type="submit"]:hover {
+  background: grey;
+  color: mistyrose;
+}

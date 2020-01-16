@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Amsterdam Photo Guide</title>
+    <link rel="stylesheet" type="text/css" href="styling.css" />
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Support for ms and opera browsers -->
+    <style>
+      @-o-viewport {
+        width: device-width;
+        zoom: 1;
+      }
+
+      @-ms-viewport {
+        width: device-width;
+        zoom: 1;
+      }
+
+      @viewport {
+        width: device-width;
+        zoom: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Photo for first page -->
+
+    <img
+      src="https://cdn.pixabay.com/photo/2017/08/25/23/22/canal-2681853_1280.jpg"
+      alt="AmsterdamCanal"
+    />
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li>
+          <a class="places" href="places.html" style="text-decoration:none"
+            >Places</a
+          >
+        </li>
+        <li>
+          <a class="food" href="food.html" style="text-decoration:none"
+            >Food & Drinks</a
+          >
+        </li>
+        <li>
+          <a class="tours" href="tours.html" style="text-decoration:none"
+            >Tours & Events</a
+          >
+        </li>
+        <li>
+          <a class="safety" href="safety.html" style="text-decoration:none"
+            >Safety</a
+          >
+        </li>
+        <li>
+          <a class="contact" href="#contact" style="text-decoration:none"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Title and short intro -->
+
+    <div class="index">
+      <h1>Amsterdam</h1>
+
+      <p>
+        Welcome to Amsterdam - the "Venice of the North", with 17th-century
+        canal ring area, listed as UNESCO World Heritage Site.
+      </p>
+    </div>
+
+    <!-- Contact form -->
+
+    <div id="contact" class="section">
+      <form action="/questions.php">
+        <h2>Contact Us</h2>
+        Name:<br />
+        <input type="text" name="name" value="" />
+        <br />
+        Email:<br />
+        <input type="text" name="email" value="" />
+        <br />
+        Message:<br />
+        <input type="text" name="text" value="" />
+        <br /><br />
+
+        <input type="submit" value="🌷Send your Question🌷" />
+      </form>
+    </div>
+
+    <!-- Links for JavaScript functionality -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
