@@ -1,8 +1,10 @@
 .canal {
+  display: flex;
   width: 650px;
   border-radius: 15px;
 }
 h1 {
+  display: flex;
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   text-align: center;
@@ -10,11 +12,14 @@ h1 {
   font-weight: bold;
 }
 body {
+  display: flex;
   font-family: "Cormorant Garamond", serif;
 }
 p {
+  display: flex;
   text-align: right;
 }
 h2 {
+  display: flex;
   text-align: right;
 }
