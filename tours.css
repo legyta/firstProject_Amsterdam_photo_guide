@@ -1,0 +1,20 @@
+.canal {
+  width: 650px;
+  border-radius: 15px;
+}
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+p {
+  text-align: right;
+}
+h2 {
+  text-align: right;
+}
