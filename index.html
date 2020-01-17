@@ -81,12 +81,24 @@
     <!-- Title and short intro -->
 
     <div class="index">
-      <h1>Amsterdam</h1>
+      <h1><b>Amsterdam</b></h1>
 
       <p>
         Welcome to Amsterdam - the "Venice of the North", with 17th-century
         canal ring area, listed as UNESCO World Heritage Site.
       </p>
+    </div>
+
+    <!-- News feed section -->
+
+    <div class="news">
+      <h3><b>Wild News</b></h3>
+
+      <h4 class="moveNews">
+        Last week 87 bicycles were reported stolen! <br />
+        The tourist from England ended up in the hospital after abusing drug
+        substances.
+      </h4>
     </div>
 
     <!-- Contact form -->
@@ -104,9 +116,21 @@
         <input type="text" name="text" value="" />
         <br /><br />
 
-        <input type="submit" value="🌷Send your Question🌷" />
+        <input
+          type="submit"
+          onclick="Response()"
+          value="🌷Send your Question🌷"
+        />
       </form>
     </div>
+
+    <script>
+      function Response() {
+        window.alert(
+          "You are Wild to Contact us! 🐋 We will get back to you very soon!💫"
+        );
+      }
+    </script>
 
     <!-- Links for JavaScript functionality -->
     <script

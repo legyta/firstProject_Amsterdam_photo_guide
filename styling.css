@@ -10,7 +10,7 @@ ul {
 li {
   display: inline;
   border-radius: 15px;
-  background: mistyrose;
+  background: #ffe4e1;
   opacity: 0.8;
   font-size: 16pt;
   font-family: "cormorant garamond";
@@ -20,13 +20,15 @@ li {
 .index {
   display: flex;
   justify-content: center;
+
+  justify-content: ;
 }
 
 p {
   font-family: "cormorant garamond";
   font-size: 28pt;
-  color: black;
-  background: mistyrose;
+  color: #000000;
+  background: #ffe4e1;
   padding: 2%;
   top: 70%;
   width: 80%;
@@ -36,12 +38,35 @@ p {
 }
 
 h1 {
-  color: black;
+  color: #000000;
   position: absolute;
   top: 40%;
   left: 40%;
   font-size: 38pt;
   font-family: "cormorant garamond";
+}
+
+/* News feed */
+
+.news {
+  font-family: "cormorant garamond";
+  color: #dc143c;
+  width: "device-width";
+  height: "100";
+  border-style: solid;
+  border-color: #dc143c;
+  animation: 3s 1;
+}
+
+h3 {
+  color: #dc143c;
+}
+
+@keyframes newsText {
+  0% {
+    color: purple;
+    margin-bottom: -40%;
+  }
 }
 
 /*Contact*/
@@ -57,7 +82,7 @@ h2 {
 }
 
 input[type="text"] {
-  border: 2px solid black;
+  border: 2px solid #000000;
   width: 350px;
   font-size: 20pt;
   font-family: "cormorant garamond";
@@ -65,8 +90,8 @@ input[type="text"] {
 
 input[type="submit"] {
   cursor: pointer;
-  color: green;
-  background-color: mistyrose;
+  color: #008000;
+  background-color: #ffe4e1;
   font-family: "cormorant garamond";
   font-size: 14pt;
   height: 40px;
@@ -76,6 +101,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: grey;
-  color: mistyrose;
+  background: #808080;
+  color: #ffe4e1;
 }
