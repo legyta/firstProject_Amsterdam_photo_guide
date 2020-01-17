@@ -1,0 +1,54 @@
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: Snow;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+}
+h3 {
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
+div {
+  display: inline-block;
+  padding: 55px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+}
