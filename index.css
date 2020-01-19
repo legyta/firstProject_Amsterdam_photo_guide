@@ -1,0 +1,122 @@
+/*     <!-- Support for ms and opera browsers -->
+    */
+@-o-viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/* Index page styling */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
+}
+
+li {
+  display: inline;
+  border-radius: 15px;
+  background-color: #f5f5dc;
+  opacity: 0.8;
+  margin: 2px;
+}
+
+li a {
+  font-family: "cormorant garamond";
+  color: #000000;
+  margin: 4px;
+}
+
+/* Description properties */
+
+.index {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.index p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  font-family: "cormorant garamond";
+  font-size: 28pt;
+  color: #000000;
+  background-color: #f5f5dc;
+  padding: 2%;
+  top: 70%;
+  width: 80%;
+  border-radius: 15px;
+  position: absolute;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+}
+
+/* News feed */
+
+h1 {
+  color: #800000;
+  animation-name: newsfeed;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes newsfeed {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    margin-bottom: -40%;
+  }
+}
+
+/* formatting for news feed  */
+
+.container-fluid {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+h3 a {
+  color: #800000;
+  font-weight: bolder;
+  font-family: "cormorant garamond";
+  text-align: center;
+  font-size: 18pt;
+}

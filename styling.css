@@ -1,4 +1,4 @@
-/* First page */
+/* Index page styling */
 ul {
   list-style-type: none;
   position: absolute;
@@ -46,25 +46,92 @@ h1 {
 
 /* News feed */
 
-.news {
-  font-family: "cormorant garamond";
-  color: #dc143c;
-  width: "device-width";
-  height: "100";
-  border-style: solid;
-  border-color: #dc143c;
-  animation: 3s 1;
-}
-
 h3 {
   color: #dc143c;
 }
 
-@keyframes newsText {
+h4 {
+  color: #dc143c;
+  animation-name: newsfeed;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes newsfeed {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+@keyframes pulse {
   0% {
     color: purple;
     margin-bottom: -40%;
   }
+
+  100% {
+    background-color: #ff4136;
+  }
+}
+
+/* formatting for news feed  */
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+}
+h3 {
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
+div {
+  display: inline-block;
+  padding: 55px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 /*Contact*/
