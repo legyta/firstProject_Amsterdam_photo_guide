@@ -1,6 +1,7 @@
 body {
   font-family: "Cormorant Garamond", serif;
   background-color: Snow;
+  font-size: 15pt;
 }
 h1 {
   font-weight: bold;
@@ -35,13 +36,14 @@ h3 {
 }
 
 div {
+  font-size: 15pt;
   display: inline-block;
   padding: 55px;
 }
 
 p {
   text-align: center;
-  font-size: 30px;
+  font-size: 15pt;
 }
 
 .poff {
@@ -51,4 +53,24 @@ p {
   width: 900px;
   border-radius: 15px;
   text-align: center;
+}
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
+}
+
+li {
+  display: inline;
+  border-radius: 15px;
+  background-color: #f5f5dc;
+  opacity: 0.8;
+  margin: 2px;
+}
+li a {
+  font-family: "cormorant garamond";
+  color: #000000;
+  margin: 4px;
 }
