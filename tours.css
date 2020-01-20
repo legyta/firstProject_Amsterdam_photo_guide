@@ -1,40 +1,37 @@
 .canal {
-  display: flex;
   width: 650px;
   border-radius: 15px;
 }
 h1 {
-  display: flex;
+  padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
-  font-weight: bold;
   text-align: center;
-  font-size: 28pt;
+  font-size: 50pt;
   font-weight: bold;
+  color: #191414;
 }
 body {
-  display: flex;
   font-family: "Cormorant Garamond", serif;
 }
 p {
-  display: flex;
-  text-align: right;
+  font-size: 16pt;
 }
 h2 {
-  display: flex;
   text-align: right;
+  font-size: 30pt;
 }
 ul {
   list-style-type: none;
   position: absolute;
   top: 0%;
   left: 44%;
-  font-size: 15pt;
+  font-size: 20pt;
 }
 
 li {
   display: inline;
   border-radius: 15px;
-  background-color: #f5f5dc;
+  background-color: #f2e1f3;
   opacity: 0.8;
   margin: 2px;
 }
@@ -44,12 +41,16 @@ li a {
   margin: 4px;
 }
 .museum {
-  display: flex;
   width: 650px;
   border-radius: 15px;
 }
 .theatre {
-  display: flex;
   width: 650px;
   border-radius: 15px;
+}
+.map {
+  padding: 15pt;
+}
+body {
+  background-color: snow;
 }
