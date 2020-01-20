@@ -1,7 +1,3 @@
-.canal {
-  width: 650px;
-  border-radius: 15px;
-}
 h1 {
   padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
@@ -10,17 +6,16 @@ h1 {
   font-weight: bold;
   color: #191414;
 }
-body {
-  font-family: "Cormorant Garamond", serif;
-}
+
 p {
   font-size: 16pt;
+  padding: 100px;
 }
 h2 {
-  text-align: right;
+  text-align: center;
   font-size: 30pt;
 }
-ul {
+#navig ul {
   list-style-type: none;
   position: absolute;
   top: 0%;
@@ -28,29 +23,55 @@ ul {
   font-size: 20pt;
 }
 
-li {
+#navig ul li {
   display: inline;
   border-radius: 15px;
   background-color: #f2e1f3;
   opacity: 0.8;
   margin: 2px;
 }
-li a {
+#navig ul li a {
   font-family: "cormorant garamond";
   color: #000000;
   margin: 4px;
 }
-.museum {
-  width: 650px;
+.canal {
   border-radius: 15px;
+  max-width: 100%;
+}
+.museum {
+  border-radius: 15px;
+  max-width: 100%;
 }
 .theatre {
-  width: 650px;
   border-radius: 15px;
+  max-width: 100%;
 }
 .map {
-  padding: 15pt;
+  padding-top: 15pt;
+  max-width: 100%;
 }
 body {
   background-color: snow;
+  font-family: "Cormorant Garamond", serif;
+}
+
+#canals {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#museums {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#events {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
