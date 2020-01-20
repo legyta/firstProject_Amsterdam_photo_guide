@@ -8,7 +8,7 @@ h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   text-align: center;
-  font-size: 100px;
+  font-size: 28pt;
   font-weight: bold;
 }
 body {
@@ -28,7 +28,7 @@ ul {
   position: absolute;
   top: 0%;
   left: 44%;
-  font-size: 20pt;
+  font-size: 15pt;
 }
 
 li {
@@ -42,4 +42,14 @@ li a {
   font-family: "cormorant garamond";
   color: #000000;
   margin: 4px;
+}
+.museum {
+  display: flex;
+  width: 650px;
+  border-radius: 15px;
+}
+.theatre {
+  display: flex;
+  width: 650px;
+  border-radius: 15px;
 }
