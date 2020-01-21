@@ -199,3 +199,65 @@ p {
     font-size: 1.2rem;
   }
 }
+
+/*food page specials*/
+
+.foodpg {
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #191414;
+}
+.foodh3 {
+  text-align: center;
+  font-size: 50px;
+  /* this part is for the desktops*/
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+.poffert {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.black {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+}
+.foodp {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}

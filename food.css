@@ -1,79 +1,7 @@
-body .foodpg {
-  font-family: "Cormorant Garamond", serif;
-  background-color: ghostwhite;
-  font-size: 15pt;
-}
-h1 {
-  padding-top: 30pt;
-  font-family: "Cormorant Garamond", serif;
-  text-align: center;
-  font-size: 50pt;
-  font-weight: bold;
-  color: #191414;
-}
-h3 {
-  text-align: center;
-  font-size: 50px;
-  /* this part is for the desktops*/
-}
-.oil {
-  width: 350px;
-  border-radius: 15px;
-}
-.fries {
-  width: 350px;
-  border-radius: 15px;
-}
-.beers {
-  width: 350px;
-  border-radius: 15px;
-}
-.coffee {
-  width: 900px;
-  border-radius: 15px;
-  text-align: center;
-  display: block;
-  margin-left: 200px;
-  margin-right: auto;
-}
-
 div {
   font-size: 15pt;
   display: inline-block;
   padding: 55px;
-}
-p {
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 15pt;
-  width: 300px;
-}
-.poffert {
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
-  width: 800px;
-}
-.black {
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
-  width: 800px;
-}
-.poff {
-  display: block;
-  margin-left: 200px;
-  margin-right: auto;
-  width: 900px;
-  border-radius: 15px;
-  text-align: center;
-}
-ul {
-  list-style-type: none;
-  position: absolute;
-  top: 0%;
-  left: 44%;
-  font-size: 20pt;
 }
 
 li {
@@ -114,13 +42,17 @@ li a {
     background-color: ghostwhite;
     font-size: 10pt;
   }
-  h1 {
+  .foodpg {
     padding-top: 50pt;
     font-size: 40pt;
   }
-  h3 {
-    font-size: 30px;
+  .foodh3 {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 15pt;
+    text-align: center;
   }
+
   p {
     padding-right: 10px;
     padding-left: 10px;
@@ -185,5 +117,11 @@ li a {
   .black {
     padding-left: 10px;
     width: 200px;
+  }
+  .foodpg {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 15pt;
+    text-align: center;
   }
 }
