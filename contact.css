@@ -1,5 +1,4 @@
 /* Support for ms and opera browsers */
-
 @-o-viewport {
   width: device-width;
   zoom: 1;
@@ -18,53 +17,69 @@
 /* Navigation bar */
 
 ul {
-  list-style-type: none;
-  position: absolute;
-  top: 0%;
-  left: 38%;
-  font-size: 20pt;
+  font-size: 14pt;
+  color: pink;
 }
 
-li {
-  display: inline;
-  border-radius: 15px;
-  background-color: #ffe4e1;
-  opacity: 0.8;
-  margin: 2px;
+.logo {
+  width: 3rem;
+  height: 3rem;
 }
 
-li a {
-  font-family: "cormorant garamond";
-  color: #000000;
-  font-weight: normal;
-  margin: 4px;
+/* Logo on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
+/* Logo on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 /*Contact*/
 
-footer {
-  background-color: #ffe4e1;
-}
-
-h2 {
+.contactForm h2 {
   justify-content: center;
   font-family: "cormorant garamond";
   text-align: center;
 }
 
-.section {
+.sectionContact {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 100px;
   padding-bottom: 60px;
   font-family: "cormorant garamond";
-  font-size: 14pt;
+  font-size: 1rem;
+}
+
+/* Section on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionContact {
+    font-size: 1.2rem;
+  }
+}
+
+/* Section on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .sectionContact {
+    font-size: 1.4rem;
+  }
 }
 
 input[type="text"] {
-  border: 2px solid #000000;
+  border: 0.05rem solid #000000;
   width: 350px;
-  font-size: 20pt;
 }
 
 input[type="submit"] {
@@ -84,17 +99,33 @@ input[type="submit"]:hover {
   color: #ffe4e1;
 }
 
-.wildlogo {
-  height: 50px;
-  width: 50px;
-  padding-bottom: 0;
+.sectionContact h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+/* Contact us font on laptops */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionContact h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Contact us font on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .sectionContact h2 {
+    font-size: 2rem;
+  }
 }
 
 /* Social media icons */
 
-h4 {
+h3 {
+  justify-content: center;
   text-align: center;
   font-family: "cormorant garamond";
+  font-size: 2rem;
 }
 
 .fa {
@@ -109,6 +140,7 @@ h4 {
 .socialmedia {
   display: flex;
   justify-content: center;
+  padding-bottom: 10%;
 }
 .fa:hover {
   opacity: 0.7;
@@ -134,11 +166,35 @@ h4 {
   color: #ffffff;
 }
 
-p {
-  font-family: "cormorant garamond";
-  font-size: 14pt;
+/* Footer */
+
+.wildlogo {
+  height: 50px;
+  width: 50px;
 }
 
-a {
-  font-weight: bolder;
+.footer p {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+/* Footer text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  p {
+    font-size: 1.2rem;
+  }
 }

@@ -33,47 +33,72 @@
   </head>
   <body>
     <!-- Navigation bar -->
-    <nav>
-      <ul>
-        <li>
-          <a class="home" href="index.html" style="text-decoration:none"
-            >Home</a
-          >
-        </li>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="https://i.imgur.com/fgl7coP.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <li>
-          <a class="places" href="places.html" style="text-decoration:none"
-            >Places</a
-          >
-        </li>
-        <li>
-          <a class="food" href="food.html" style="text-decoration:none"
-            >Food & Drinks</a
-          >
-        </li>
-        <li>
-          <a class="tours" href="tours.html" style="text-decoration:none"
-            >Tours & Events</a
-          >
-        </li>
-        <li>
-          <a class="safety" href="safety.html" style="text-decoration:none"
-            >Safety</a
-          >
-        </li>
-        <li>
-          <a class="contact" href="contact.html" style="text-decoration:none"
-            >Contact Us</a
-          >
-        </li>
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="text-decoration:none"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="places.html"
+                style="text-decoration:none"
+                >Places</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html" style="text-decoration:none"
+                >Food & Drinks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html" style="text-decoration:none"
+                >Tours & Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="safety.html"
+                style="text-decoration:none"
+                >Safety</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="contact.html"
+                style="text-decoration:none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Contact form -->
 
-    <div id="contact" class="section">
-      <form action="/questions.php">
-        <h2>Contact Us</h2>
+    <div id="contact" class="sectionContact">
+      <form action="">
+        <h2 class="contactForm">Contact Us</h2>
         Name:<br />
         <input type="text" name="name" value="" />
         <br />
@@ -118,10 +143,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <!-- Footer section -->
 
-    <h4>Find us on</h4>
     <!-- Add social media icons -->
+    <h3>Find us on</h3>
+
     <div class="socialmedia">
       <a
         href="https://www.facebook.com/Wild-Code-School-Netherlands-108096120530892/?ref=br_rs"
@@ -141,22 +166,27 @@
       ></a>
     </div>
 
+    <!-- Footer section -->
+
     <footer>
       <p>
-        Contact information:
-        <a href="mailto:amsterdam@wildcodeschool.com">
-          amsterdam@wildcodeschool.com</a
-        >.
-      </p>
-
-      <p>
-        Created by: <a>Elsabeth Desta, Ligita Montvilaite and Seyma Firat</a>
+        Created by:
+        <a
+          ><b>
+            Elsabeth Desta, Ligita Montvilaite, Seyma Firat @ Wild Code School
+            Amsterdam
+          </b>
+        </a>
         <img
           src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5005/s300/favicon-orange.png"
           alt="wildlogo"
           class="wildlogo"
         />
-        <a> Wild Code School Amsterdam </a>
+        <br />
+        Email us:
+        <a href="mailto:amsterdam@wildcodeschool.com">
+          amsterdam@wildcodeschool.com</a
+        >.
       </p>
     </footer>
   </body>
