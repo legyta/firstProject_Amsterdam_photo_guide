@@ -18,7 +18,6 @@
 
 ul {
   font-size: 14pt;
-  color: pink;
 }
 
 .logo {
@@ -43,6 +42,193 @@ ul {
     height: 5rem;
   }
 }
+
+/* Index page styling */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+}
+
+div p {
+  font-family: "cormorant garamond";
+  font-size: 0.8rem;
+  color: #000000;
+  background-color: #f5f5dc;
+  border-radius: 15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Banner text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Banner text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div p {
+    font-size: 1.8rem;
+  }
+}
+
+/* Animation for news feed */
+
+div h4 {
+  font-size: 1rem;
+  color: #800000;
+  animation-name: newsfeed;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes newsfeed {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 54%;
+  }
+}
+/* News feed on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div h4 {
+    font-size: 1.5rem;
+  }
+
+  @keyframes newsfeed {
+    from {
+      margin-left: 0%;
+    }
+
+    to {
+      margin-left: 65%;
+    }
+  }
+}
+
+/* News feed on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div h4 {
+    font-size: 2rem;
+  }
+
+  @keyframes newsfeed {
+    from {
+      margin-left: 0%;
+    }
+
+    to {
+      margin-left: 75%;
+    }
+  }
+}
+
+/* Formatting for news feed title */
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  width: 80%;
+  height: 80%;
+}
+
+.row .col {
+  left: 20%;
+}
+
+/* News feed positioning on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
+}
+
+/* News feed positioning on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
+}
+
+h3 a {
+  color: #800000;
+  font-weight: bolder;
+  font-family: "cormorant garamond";
+  font-size: 1rem;
+}
+
+/* News feed title on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h3 a {
+    font-size: 1.5rem;
+  }
+}
+
+/* News feed title on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  h3 a {
+    font-size: 2rem;
+  }
+}
+
+/* News text */
+
+div h5 {
+  font-size: 1rem;
+}
+
+/* News text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div h5 {
+    font-size: 1.2rem;
+  }
+}
+
+/* News text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div h5 {
+    font-size: 1.6rem;
+  }
+}
+
 /*Contact Us Form*/
 
 .contactForm h2 {
