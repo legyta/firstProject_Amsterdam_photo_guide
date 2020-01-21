@@ -366,6 +366,10 @@ h3 {
   left: 0;
 }
 
+footer {
+  background-color: #ffe4e1;
+}
+
 p {
   font-size: 0.8rem;
 }
