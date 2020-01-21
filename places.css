@@ -4,35 +4,22 @@ body {
   padding: 20px;
 }
 
+/* here insert the nav from index html */
 nav {
   height: 30px;
   padding-bottom: 20px;
 }
 
+/* header for places page   */
 .header {
   font-family: "Cormorant Garamond", Serif;
   font-size: 40px;
   text-align: center;
   background: white;
   border-radius: 15px;
-}
+    }
 
-div.polaroid {
-  width: 350px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
-}
-
-div.description {
-  text-align: center;
-  padding: 10px 20px;
-}
-
-img {
-  width: 350px;
-}
-
+/* section places page*/
 .places {
   /*display: inline-flexbox;*/
   display: flex;
@@ -42,6 +29,49 @@ img {
   font-family: "Cormorant Garamond", serif;
 }
 
+
+/* card images for places page */
+div.polaroid {
+  width: 350px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+/* description of images under card images-places page*/
+div.description {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+
+/* div class of unique places*/
+.unique_places {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* image style for places page*/
+.img_places {
+  width: 350px;
+}
+
+/* /* add media screen specificity**/
+/*subhead of unique places*/
+.unique_subhead{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  background-color: white;
+  margin-bottom: 6px;
+  padding: 0%;
+}
+
+
+
+
+
 .footer {
   padding: 20px;
   text-align: center;
@@ -49,6 +79,8 @@ img {
   margin-top: 20px;
   border-radius: 15px;
 }
+
+/* logo created source - places page */
 .logo {
   width: 100px;
   height: 100px;
