@@ -1,17 +1,20 @@
 body {
   font-family: "Cormorant Garamond", serif;
-  background-color: Snow;
+  background-color: ghostwhite;
+  font-size: 15pt;
 }
 h1 {
-  font-weight: bold;
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
-  font-size: 120px;
+  font-size: 50pt;
   font-weight: bold;
+  color: #191414;
 }
 h3 {
-  display: flex;
   text-align: center;
   font-size: 50px;
+  /* this part is for the desktops*/
 }
 .oil {
   width: 350px;
@@ -35,15 +38,28 @@ h3 {
 }
 
 div {
+  font-size: 15pt;
   display: inline-block;
   padding: 55px;
 }
-
 p {
-  text-align: center;
-  font-size: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
 }
-
+.poffert {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.black {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
 .poff {
   display: block;
   margin-left: 200px;
@@ -51,4 +67,122 @@ p {
   width: 900px;
   border-radius: 15px;
   text-align: center;
+}
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
+}
+
+li {
+  display: inline;
+  border-radius: 15px;
+  background-color: PowderBlue;
+  opacity: 0.8;
+  margin: 2px;
+}
+li a {
+  font-family: "cormorant garamond";
+  color: #000000;
+  margin: 4px;
+}
+/* this part is for the tablet*/
+@media only screen and (max-width: 1200px) {
+  .oil {
+    width: 200px;
+  }
+  .fries {
+    width: 200px;
+  }
+  .beers {
+    width: 200px;
+  }
+  .coffee {
+    width: 700px;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  .poff {
+    width: 700px;
+    margin-left: 50px;
+    border-radius: 15px;
+  }
+  body {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 10pt;
+  }
+  h1 {
+    padding-top: 50pt;
+    font-size: 40pt;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 12pt;
+    width: 200px;
+  }
+  .poffert {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    width: 600px;
+  }
+  .black {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .oil {
+    text-align: center;
+    width: 150px;
+  }
+  .fries {
+    width: 150px;
+  }
+  .beers {
+    width: 150px;
+  }
+  .coffee {
+    width: 150px;
+  }
+  .poff {
+    width: 150px;
+  }
+  body {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 8pt;
+  }
+  h1 {
+    padding-top: 50pt;
+    font-size: 20pt;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    font-size: 8pt;
+    width: 200px;
+  }
+  .poffert {
+    padding-left: 10px;
+    width: 200px;
+  }
+  .black {
+    padding-left: 10px;
+    width: 200px;
+  }
 }
