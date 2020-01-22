@@ -85,7 +85,7 @@ li a {
   margin: 4px;
 }*/
 /* this part is for the tablet*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 767px) {
   .oil {
     width: 200px;
   }
@@ -96,12 +96,12 @@ li a {
     width: 200px;
   }
   .coffee {
-    width: 700px;
+    width: 200px;
     margin-left: 50px;
     margin-right: auto;
   }
   .poff {
-    width: 700px;
+    width: 200px;
     margin-left: 50px;
     border-radius: 15px;
   }
@@ -128,16 +128,17 @@ li a {
     padding-left: 100px;
     padding-right: 100px;
 
-    width: 600px;
+    width: 200px;
   }
   .black {
     padding-left: 100px;
     padding-right: 100px;
 
-    width: 600px;
+    width: 200px;
   }
 }
-@media only screen and (max-width: 500px) {
+/*this is for phones */
+@media only screen and (max-width: 479px) {
   .oil {
     text-align: center;
     width: 150px;
@@ -177,6 +178,19 @@ li a {
     padding-left: 10px;
     width: 200px;
   }
+<<<<<<< HEAD
+=======
+  .black {
+    padding-left: 10px;
+    width: 200px;
+  }
+  .foodpg {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 15pt;
+    text-align: center;
+  }
+>>>>>>> 67aecc36b53b7599418e15510aecf7fb73465f6b
 }
 /* Navigation bar styling 
 

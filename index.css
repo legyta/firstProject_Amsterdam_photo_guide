@@ -18,7 +18,6 @@
 
 ul {
   font-size: 14pt;
-  color: pink;
 }
 
 .logo {
@@ -84,17 +83,6 @@ div p {
   }
 }
 
-/* p {
-  font-family: "cormorant garamond";
-  font-size: 2rem;
-  color: #000000;
-  background-color: #f5f5dc;
-  border-radius: 15px;
-  position: absolute;
-  opacity: 0.8;
-  text-align: center;
-} */
-
 /* Animation for news feed */
 
 div h4 {
@@ -153,14 +141,47 @@ div h4 {
 
 /* Formatting for news feed title */
 
-.container {
+.container-fluid {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .row {
   width: 80%;
   height: 80%;
+}
+
+.row .col {
+  left: 20%;
+}
+
+/* News feed positioning on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
+}
+
+/* News feed positioning on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
 }
 
 h3 a {
