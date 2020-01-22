@@ -425,13 +425,13 @@ p {
   margin-left: 200px;
   margin-right: auto;
 }
-.poffert {
+#sweet .poffer p {
   padding-left: 250px;
   padding-right: 250px;
   text-align: center;
   width: 800px;
 }
-.black {
+.black p {
   padding-left: 250px;
   padding-right: 250px;
   text-align: center;
@@ -445,7 +445,7 @@ p {
   border-radius: 15px;
   text-align: center;
 }
-.foodp {
+.foodp p {
   padding-left: 25px;
   padding-right: 25px;
   font-size: 15pt;
