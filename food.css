@@ -1,9 +1,9 @@
-body {
+.food1 {
   font-family: "Cormorant Garamond", serif;
   background-color: ghostwhite;
   font-size: 15pt;
 }
-h1 {
+.head1 {
   padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
   text-align: center;
@@ -11,7 +11,7 @@ h1 {
   font-weight: bold;
   color: #191414;
 }
-h3 {
+.foodh {
   text-align: center;
   font-size: 50px;
   /* this part is for the desktops*/
