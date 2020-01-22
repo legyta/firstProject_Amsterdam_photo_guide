@@ -30,51 +30,77 @@
   </head>
   <body class="food1">
     <!-- Navigation bar -->
-    <nav>
-      <ul>
-        <li>
-          <a class="home" href="index.html" style="text-decoration:none"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a class="places" href="places.html" style="text-decoration:none"
-            >Places</a
-          >
-        </li>
-        <li>
-          <a class="food" href="food.html" style="text-decoration:none"
-            >Food & Drinks</a
-          >
-        </li>
-        <li>
-          <a class="tours" href="tours.html" style="text-decoration:none"
-            >Tours & Events</a
-          >
-        </li>
-        <li>
-          <a class="safety" href="safety.html" style="text-decoration:none"
-            >Safety</a
-          >
-        </li>
-        <li>
-          <a class="contact" href="contact.html" style="text-decoration:none"
-            >Contact Us</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="https://i.imgur.com/fgl7coP.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="text-decoration:none"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="places.html"
+                style="text-decoration:none"
+                >Places</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html" style="text-decoration:none"
+                >Food & Drinks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html" style="text-decoration:none"
+                >Tours & Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="safety.html"
+                style="text-decoration:none"
+                >Safety</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                style="text-decoration:none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Seyma's food page-->
     <h1 class="head1">FOOD&DRINKS</h1>
     <section id="food.html">
-      <div id="oilb">
+      <div class="foods">
         <img
           src="https://www.koopmans.com/assets/_processed_/6/8/movie_image_oliebollen_origineel.jpg"
           alt="oilballs"
           class="oil"
         />
-        <h3 class="foodh">Oil Balls</h3>
-        <p>
+        <h3 class="foodh">OilBalls</h3>
+        <p class="foodtext">
           Stroopwafels may get all the international fame and glory, but true
           Dutch food lovers will tell you that the best way to fill a hole in
           your heart and appetite is with an oliebol, or a dozen. This delicious
@@ -83,14 +109,14 @@
           to Christmas.
         </p>
       </div>
-      <div class="frie">
+      <div class="foods">
         <img
           src="https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/08/Amsterdam-Best-Food-Must-Eat-Tourist-8.jpg"
           alt="fries"
           class="fries"
         />
         <h3 class="foodh">Fries</h3>
-        <p>
+        <p class="foodtext">
           Whether they're called frites, Dutch fries, patat, friet or vlaamse
           frites, not all fries are created equal. In our quest to find the very
           best fries in Amsterdam (usually served in a paper cone and slathered
@@ -98,14 +124,14 @@
           crispiest, most mouth-watering frites - you can thank us later. Friet"
         </p>
       </div>
-      <div class="beerss">
+      <div class="foods">
         <img
           src="https://images.squarespace-cdn.com/content/v1/553ea4fce4b00231533908ce/1430414328483-TSWWNYMU1AZNLF9SHKCR/ke17ZwdGBToddI8pDm48kB6N0s8PWtX2k_eW8krg04V7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URWK2DJDpV27WG7FD5VZsfFVodF6E_6KI51EW1dNf095hdyjf10zfCEVHp52s13p8g/local_beers.jpg?format=1500w"
           alt="beer"
           class="beers"
         />
         <h3 class="foodh">Beer Temple</h3>
-        <p>
+        <p class="foodtext">
           A leading light of Amsterdam’s speciality beer brigade since 2009,
           this city centre beer mecca attracts beer loving visitors from far and
           wide to worship at its taps. There are around 30 beers on draft and
@@ -113,21 +139,19 @@
           beers and ales sourced from US microbreweries. Give it a try for us!
         </p>
       </div>
-    </section>
-    <section id="bever">
-      <div class="kahve">
+      <div class="foods">
         <img
           src="https://cdn.pixabay.com/photo/2019/07/13/11/44/coffee-4334647_960_720.jpg"
           alt="coff"
           class="coffee"
         />
         <h3 class="foodh">Back to Black</h3>
-        <p class="black">
+        <p class="poffert">
           Back to Black is an Amsterdam based company existing out of two coffee
           bars, a roastery and a little bakery.
         </p>
       </div>
-      <div class="sweet">
+      <div class="foods">
         <img
           src="https://static-koken.vtm.be/sites/koken.vtm.be/files/recipe/image/istock_000017401694small.jpg"
           alt="poff"
