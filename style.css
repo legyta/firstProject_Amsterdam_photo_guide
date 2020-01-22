@@ -54,7 +54,7 @@ img {
   position: relative;
 }
 
-div p {
+.bannertext {
   font-family: "cormorant garamond";
   font-size: 0.8rem;
   color: #000000;
@@ -65,6 +65,10 @@ div p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+p {
+  text-align: center;
 }
 
 /* Banner text on tablets */
