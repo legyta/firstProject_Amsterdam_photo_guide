@@ -435,6 +435,7 @@ p {
   margin-left: 200px;
   margin-right: auto;
 }
+<<<<<<< HEAD
 
 .foods {
   font-size: 15pt;
@@ -448,6 +449,15 @@ p {
   width: 300px;
 }
 .poffert {
+=======
+#sweet .poffer p {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.black p {
+>>>>>>> a2f75f87bb7c6d354d82aa3a087e33170ab8afb2
   padding-left: 250px;
   padding-right: 250px;
   text-align: center;
@@ -462,6 +472,7 @@ p {
   border-radius: 15px;
   text-align: center;
 }
+<<<<<<< HEAD
 /*
 ul {
   list-style-type: none;
@@ -577,4 +588,11 @@ li a {
     padding-left: 10px;
     width: 200px;
   }
+=======
+.foodp p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+>>>>>>> a2f75f87bb7c6d354d82aa3a087e33170ab8afb2
 }
