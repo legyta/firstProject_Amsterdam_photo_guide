@@ -5,69 +5,145 @@
     rel="stylesheet"
   />
 
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg"
+  />
+
   <head>
-    <link rel="stylesheet" type="text/css" href="SAFETY.CSS" />
+    <meta charset="UTF-8" />
+    <!-- Viewport -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>food_drinks</title>
+    <title>Amsterdam Photo Guide</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <style>
-      @-o-viewport {
-        width: device-width;
-        zoom: 1;
-      }
-      @-ms-viewport {
-        width: device-width;
-        zoom: 1;
-      }
-      @viewport {
-        width: device-width;
-        zoom: 1;
-      }
-    </style>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>safety</title>
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <!--Navigation Bar-->
-    <nav>
-      <ul>
-        <li>
-          <a class="home" href="index.html" style="text-decoration:none"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a class="places" href="places.html" style="text-decoration:none"
-            >Places</a
-          >
-        </li>
-        <li>
-          <a class="food" href="food.html" style="text-decoration:none"
-            >Food & Drinks</a
-          >
-        </li>
-        <li>
-          <a class="tours" href="tours.html" style="text-decoration:none"
-            >Tours & Events</a
-          >
-        </li>
-        <li>
-          <a class="safety" href="safety.html" style="text-decoration:none"
-            >Safety</a
-          >
-        </li>
-        <li>
-          <a class="contact" href="contact.html" style="text-decoration:none"
-            >Contact Us</a
-          >
-        </li>
-      </ul>
-      <h1 id="safe">SAFETY</h1>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="https://i.imgur.com/fgl7coP.png" class="logo" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="text-decoration:none"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="places.html"
+                style="text-decoration:none"
+                >Places</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html" style="text-decoration:none"
+                >Food & Drinks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html" style="text-decoration:none"
+                >Tours & Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="safety.html"
+                style="text-decoration:none"
+                >Safety</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                style="text-decoration:none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    <!--Seyma's safety page-->
+    <h1 class="head1">SAFETY</h1>
+    <section class="safety.html"></section>
+
+    <div class="items">
+      <h2 class="safetyh">Numbers You Might Need</h2>
+    </div>
+    <div class="items">
+      <h2 class="safetyh">Get Your Drugs Tested</h2>
+    </div>
+    <div class="items">
+      <h2 class="safetyh">Using a Bike in Amsterdam</h2>
+    </div>
+
+    <!-- Footer section -->
+
+    <footer>
+      <p>
+        Created by:
+        <a
+          ><b>
+            Elsabeth Desta, Ligita Montvilaite, Seyma Firat @ Wild Code School
+            Amsterdam
+          </b>
+        </a>
+        <img
+          src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5005/s300/favicon-orange.png"
+          alt="wildlogo"
+          class="wildlogo"
+        />
+        <br />
+        Email us:
+        <a href="mailto:amsterdam@wildcodeschool.com">
+          amsterdam@wildcodeschool.com</a
+        >.
+      </p>
+    </footer>
+
+    <!-- Links for JavaScript functionality -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
