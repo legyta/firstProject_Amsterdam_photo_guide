@@ -41,20 +41,26 @@
   font-family: "Cormorant Garamond", serif;
 }
 
-#canals {
+.canals {
   padding-left: 40px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-#museums {
+.museums {
   padding-left: 30px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-#events {
+.theatre {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.events {
   padding-left: 30px;
   display: flex;
   align-items: center;
@@ -92,20 +98,20 @@
     max-width: 100%;
   }
 
-  #canals {
+  .canals {
     padding-left: 30px;
     display: flex;
     align-items: center;
     flex-direction: row;
   }
 
-  #museums {
+  .museums {
     padding-left: 30px;
     display: flex;
     align-items: center;
     flex-direction: row;
   }
-  #events {
+  .events {
     padding-left: 30px;
     display: flex;
     align-items: center;

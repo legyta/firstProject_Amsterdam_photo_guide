@@ -676,6 +676,7 @@ ul {
 }
 
 .tourstext {
+  font-family: "Cormorant Garamond", serif;
   font-size: 16pt;
   padding: 100px;
   background-color: floralwhite;
@@ -683,20 +684,24 @@ ul {
   border-radius: 15px;
 }
 .eventsh {
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   font-size: 33pt;
   padding: 30pt;
 }
 
 .canal {
+  font-family: "Cormorant Garamond", serif;
   border-radius: 15px;
   max-width: 100%;
 }
 .museum {
+  font-family: "Cormorant Garamond", serif;
   border-radius: 15px;
   max-width: 100%;
 }
 .theatre {
+  font-family: "Cormorant Garamond", serif;
   border-radius: 15px;
   max-width: 100%;
 }
@@ -706,23 +711,26 @@ ul {
 }
 .tours1 {
   background-color: snow;
-  font-family: "Cormorant Garamond", serif;
 }
 
-#canals {
+.canals {
+  font-family: "Cormorant Garamond", serif;
+
   padding-left: 40px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-#museums {
+.museums {
+  font-family: "Cormorant Garamond", serif;
   padding-left: 30px;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-#events {
+.events {
+  font-family: "Cormorant Garamond", serif;
   padding-left: 30px;
   display: flex;
   align-items: center;

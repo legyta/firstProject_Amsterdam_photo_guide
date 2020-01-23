@@ -4,20 +4,32 @@
     href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap"
     rel="stylesheet"
   />
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg"
+  />
+
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Amsterdam Photo Guide</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Tours</title>
+
+    <!-- Bootstrap link -->
     <link
-      rel="icon"
-      type="image/png"
-      href="https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg(338 kB)
-https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg
-"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
   </head>
+
   <body class="tours1">
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -80,21 +92,22 @@ https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg
         </div>
       </div>
     </nav>
-    <section>
+    <section class="headertour">
       <h1 class="toursh">
         TOURS & EVENTS
       </h1>
     </section>
     <br />
-    <section id="map">
-      <iframe
-        class="maps"
-        src="https://www.google.com/maps/d/u/0/embed?mid=1p8KgzOce2kwoVloSQyIPRdWbxEMgGscj"
-        width="1400"
-        height="200"
-      ></iframe>
-    </section>
     <section id="tours.html">
+      <section id="map">
+        <iframe
+          class="maps"
+          src="https://www.google.com/maps/d/u/0/embed?mid=1p8KgzOce2kwoVloSQyIPRdWbxEMgGscj"
+          width="1400"
+          height="200"
+        ></iframe>
+      </section>
+
       <div id="wrapper">
         <div id="canals">
           <h2 class="eventsh">
@@ -113,7 +126,7 @@ https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg
             recognised as a UNESCO world heritage site.
           </p>
         </div>
-        <div id="museums">
+        <div class="museums">
           <h2 class="eventsh">
             A day in museums
             <img
@@ -130,7 +143,7 @@ https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg
             recognised as a UNESCO world heritage site.
           </p>
         </div>
-        <div id="events">
+        <div class="events">
           <h2 class="eventsh">
             See a play in Theater Carré
             <img
@@ -150,5 +163,44 @@ https://cdn.pixabay.com/photo/2019/12/25/14/23/windmill-4718713_1280.jpg
         </div>
       </div>
     </section>
+    <!-- Footer section -->
+
+    <footer>
+      <p>
+        Created by:
+        <a
+          ><b>
+            Elsabeth Desta, Ligita Montvilaite, Seyma Firat @ Wild Code School
+            Amsterdam
+          </b>
+        </a>
+        <img
+          src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5005/s300/favicon-orange.png"
+          alt="wildlogo"
+          class="wildlogo"
+        />
+        <br />
+        Email us:
+        <a href="mailto:amsterdam@wildcodeschool.com">
+          amsterdam@wildcodeschool.com</a
+        >.
+      </p>
+    </footer>
+    <!-- Links for JavaScript functionality -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
