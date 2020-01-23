@@ -397,12 +397,18 @@ p {
     font-size: 1.2rem;
   }
 }
+<<<<<<< HEAD
 .food1 {
   font-family: "Cormorant Garamond", serif;
   background-color: ghostwhite;
   font-size: 15pt;
 }
 .head1 {
+=======
+
+/*food page specials*/
+.foodpg {
+>>>>>>> 69731312398429fef893c251db70e48468edaf57
   padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
   text-align: center;
@@ -413,7 +419,6 @@ p {
 .foodh {
   text-align: center;
   font-size: 50px;
-  /* this part is for the desktops*/
 }
 .oil {
   width: 350px;
@@ -435,11 +440,19 @@ p {
   margin-left: 200px;
   margin-right: auto;
 }
+<<<<<<< HEAD
 
 .foods {
   font-size: 15pt;
   display: initial;
   padding: 55px;
+=======
+.poffer p {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+>>>>>>> 69731312398429fef893c251db70e48468edaf57
 }
 .foodtext {
   padding-left: 25px;
