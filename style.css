@@ -455,3 +455,56 @@ p {
   font-size: 15pt;
   width: 300px;
 }
+
+/*places style*/
+.body-places {
+  background-color: snow;
+  font-family: "Cormorant Garamond", serif;
+  padding: 20px;
+}
+
+.header {
+  font-family: "Cormorant Garamond", Serif;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+}
+
+.polaroid {
+  width: 350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.places {
+  /*display: inline-flexbox;*/
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.subhead2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+.unique_places {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image-places {
+  width: 350px;
+}
