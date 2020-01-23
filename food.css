@@ -1,7 +1,79 @@
+.food1 {
+  font-family: "Cormorant Garamond", serif;
+  background-color: ghostwhite;
+  font-size: 15pt;
+}
+.head1 {
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #191414;
+}
+.foodh {
+  text-align: center;
+  font-size: 50px;
+  /* this part is for the desktops*/
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
 div {
   font-size: 15pt;
   display: inline-block;
   padding: 55px;
+}
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}
+.poffert {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.black {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
 }
 
 li {
@@ -17,7 +89,7 @@ li a {
   margin: 4px;
 }
 /* this part is for the tablet*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
   .oil {
     width: 200px;
   }
@@ -28,12 +100,12 @@ li a {
     width: 200px;
   }
   .coffee {
-    width: 200px;
+    width: 700px;
     margin-left: 50px;
     margin-right: auto;
   }
   .poff {
-    width: 200px;
+    width: 700px;
     margin-left: 50px;
     border-radius: 15px;
   }
@@ -47,13 +119,9 @@ li a {
     font-size: 40pt;
   }
   .foodh3 {
-    font-family: "Cormorant Garamond", serif;
-    background-color: ghostwhite;
-    font-size: 15pt;
-    text-align: center;
+    font-size: 30px;
   }
-
-  p {
+  .foodpg {
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
@@ -64,17 +132,16 @@ li a {
     padding-left: 100px;
     padding-right: 100px;
 
-    width: 200px;
+    width: 600px;
   }
   .black {
     padding-left: 100px;
     padding-right: 100px;
 
-    width: 200px;
+    width: 600px;
   }
 }
-/*this is for phones */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 500px) {
   .oil {
     text-align: center;
     width: 150px;
@@ -117,11 +184,5 @@ li a {
   .black {
     padding-left: 10px;
     width: 200px;
-  }
-  .foodpg {
-    font-family: "Cormorant Garamond", serif;
-    background-color: ghostwhite;
-    font-size: 15pt;
-    text-align: center;
   }
 }

@@ -395,7 +395,6 @@ p {
 }
 
 /*food page specials*/
-
 .foodpg {
   padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
@@ -407,7 +406,6 @@ p {
 .foodh3 {
   text-align: center;
   font-size: 50px;
-  /* this part is for the desktops*/
 }
 .oil {
   width: 350px;
@@ -429,7 +427,7 @@ p {
   margin-left: 200px;
   margin-right: auto;
 }
-#sweet .poffer p {
+.poffer p {
   padding-left: 250px;
   padding-right: 250px;
   text-align: center;
