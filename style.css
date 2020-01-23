@@ -397,186 +397,6 @@ p {
     font-size: 1.2rem;
   }
 }
-.food1 {
-  font-family: "Cormorant Garamond", serif;
-  background-color: ghostwhite;
-  font-size: 15pt;
-}
-.head1 {
-  padding-top: 30pt;
-  font-family: "Cormorant Garamond", serif;
-  text-align: center;
-  font-size: 50pt;
-  font-weight: bold;
-  color: #191414;
-}
-.foodh {
-  text-align: center;
-  font-size: 50px;
-}
-.oil {
-  width: 350px;
-  border-radius: 15px;
-}
-.fries {
-  width: 350px;
-  border-radius: 15px;
-}
-.beers {
-  width: 350px;
-  border-radius: 15px;
-}
-.coffee {
-  width: 900px;
-  border-radius: 15px;
-  text-align: center;
-  display: block;
-  margin-left: 200px;
-  margin-right: auto;
-}
-
-.foods {
-  font-size: 15pt;
-  display: initial;
-  padding: 55px;
-}
-.foodtext {
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 15pt;
-  width: 300px;
-}
-.poffert {
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
-  width: 800px;
-}
-
-.poff {
-  display: block;
-  margin-left: 200px;
-  margin-right: auto;
-  width: 900px;
-  border-radius: 15px;
-  text-align: center;
-}
-/*
-ul {
-  list-style-type: none;
-  position: absolute;
-  top: 0%;
-  left: 44%;
-  font-size: 20pt;
-}
-
-li {
-  display: inline;
-  border-radius: 15px;
-  background-color: PowderBlue;
-  opacity: 0.8;
-  margin: 2px;
-}
-li a {
-  font-family: "cormorant garamond";
-  color: #000000;
-  margin: 4px;
-}*/
-/* this part is for the tablet*/
-@media only screen and (max-width: 767px) {
-  .oil {
-    width: 200px;
-  }
-  .fries {
-    width: 200px;
-  }
-  .beers {
-    width: 200px;
-  }
-  .coffee {
-    width: 200px;
-    margin-left: 50px;
-    margin-right: auto;
-  }
-  .poff {
-    width: 200px;
-    margin-left: 50px;
-    border-radius: 15px;
-  }
-  .food1 {
-    font-family: "Cormorant Garamond", serif;
-    background-color: ghostwhite;
-    font-size: 10pt;
-  }
-  .head1 {
-    padding-top: 50pt;
-    font-size: 40pt;
-  }
-  .foodh {
-    font-size: 30px;
-  }
-  .foodtext {
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-    font-size: 12pt;
-    width: 200px;
-  }
-  .poffert {
-    padding-left: 100px;
-    padding-right: 100px;
-
-    width: 200px;
-  }
-  .black {
-    padding-left: 100px;
-    padding-right: 100px;
-
-    width: 200px;
-  }
-}
-/*this is for phones */
-@media only screen and (max-width: 479px) {
-  .oil {
-    text-align: center;
-    width: 150px;
-  }
-  .fries {
-    width: 150px;
-  }
-  .beers {
-    width: 150px;
-  }
-  .coffee {
-    width: 150px;
-  }
-  .poff {
-    width: 150px;
-  }
-  .food1 {
-    font-family: "Cormorant Garamond", serif;
-    background-color: ghostwhite;
-    font-size: 8pt;
-  }
-  .head1 {
-    padding-top: 50pt;
-    font-size: 20pt;
-  }
-  .foodh {
-    font-size: 20px;
-  }
-  .foodtext {
-    padding-right: 8px;
-    padding-left: 8px;
-    text-align: center;
-    font-size: 8pt;
-    width: 200px;
-  }
-  .poffert {
-    padding-left: 10px;
-    width: 200px;
-  }
-}
 
 /*places style*/
 .body-places {
@@ -629,4 +449,340 @@ li a {
 
 .image-places {
   width: 350px;
+}
+
+/*food css*/
+
+.food1 {
+  font-family: "Cormorant Garamond", serif;
+  background-color: ghostwhite;
+}
+.head1 {
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #191414;
+}
+.foodh {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50px;
+  /* this part is for the desktops*/
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 350px;
+  border-radius: 15px;
+}
+.poff {
+  width: 350px;
+  border-radius: 15px;
+}
+.foods {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 100pt;
+  display: inline-block;
+  padding: 55px;
+  background-color: #f2f2ff;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.foodtext {
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}
+
+.foodtext {
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}
+
+/*
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
+}
+
+li {
+  display: inline;
+  border-radius: 15px;
+  background-color: PowderBlue;
+  opacity: 0.8;
+  margin: 2px;
+}
+li a {
+  font-family: "cormorant garamond";
+  color: #000000;
+  margin: 4px;
+}*/
+/* this part is for the tablet*/
+@media only screen and (max-width: 1200px) {
+  .oil {
+    width: 200px;
+  }
+  .fries {
+    width: 200px;
+  }
+  .beers {
+    width: 200px;
+  }
+  .coffee {
+    width: 200px;
+  }
+  .poff {
+    width: 200px;
+  }
+  .food1 {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 10pt;
+  }
+  .head1 {
+    padding-top: 50pt;
+    font-size: 40pt;
+  }
+  .foodh {
+    font-size: 30px;
+  }
+  .foodtext {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: initial;
+    font-size: 12pt;
+    width: 200px;
+    padding-top: 10px;
+  }
+
+  /*this is for phones */
+  @media only screen and (max-width: 479px) {
+    .oil {
+      text-align: center;
+      width: 150px;
+    }
+    .fries {
+      width: 150px;
+    }
+    .beers {
+      width: 150px;
+    }
+    .coffee {
+      width: 150px;
+    }
+    .poff {
+      width: 150px;
+    }
+    .food1 {
+      font-family: "Cormorant Garamond", serif;
+      background-color: ghostwhite;
+      font-size: 8pt;
+    }
+    .head1 {
+      padding-top: 50pt;
+      font-size: 20pt;
+    }
+    .foodh {
+      font-size: 20px;
+    }
+    .foodtext {
+      padding-right: 8px;
+      padding-left: 8px;
+      text-align: center;
+      font-size: 8pt;
+    }
+  }
+  /* Navigation bar styling 
+
+ul {
+  font-size: 14pt;
+  color: pink;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+*/
+}
+
+@media only screen and (max-width: 500px) {
+  .oil {
+    text-align: center;
+    width: 150px;
+  }
+  .fries {
+    width: 150px;
+  }
+  .beers {
+    width: 150px;
+  }
+  .coffee {
+    width: 150px;
+  }
+  .poff {
+    width: 150px;
+  }
+  .food1 {
+    font-family: "Cormorant Garamond", serif;
+    background-color: ghostwhite;
+    font-size: 8pt;
+  }
+  .head1 {
+    padding-top: 50pt;
+    font-size: 20pt;
+  }
+  .foodh {
+    font-size: 20px;
+  }
+  .foodtext {
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    font-size: 8pt;
+    width: 200px;
+  }
+}
+
+/*tours page*/
+.toursh {
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #191414;
+}
+
+.tourstext {
+  font-size: 16pt;
+  padding: 100px;
+  background-color: floralwhite;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+.eventsh {
+  text-align: center;
+  font-size: 33pt;
+  padding: 30pt;
+}
+
+.canal {
+  border-radius: 15px;
+  max-width: 100%;
+}
+.museum {
+  border-radius: 15px;
+  max-width: 100%;
+}
+.theatre {
+  border-radius: 15px;
+  max-width: 100%;
+}
+.map {
+  padding-top: 15pt;
+  max-width: 100%;
+}
+.tours1 {
+  background-color: snow;
+  font-family: "Cormorant Garamond", serif;
+}
+
+#canals {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#museums {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#events {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+@media only screen and (max-width: 1200px) {
+  .toursh {
+    padding-top: 40pt;
+    font-size: 40pt;
+  }
+
+  .tourstext {
+    font-size: 12pt;
+    padding: 80px;
+  }
+  .eventsh {
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  .canal {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .museum {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .theatre {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  .map {
+    padding-top: 15pt;
+    max-width: 100%;
+  }
+
+  #canals {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  #museums {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  #events {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .toursh {
+    padding-top: 40pt;
+    font-size: 30pt;
+  }
 }
