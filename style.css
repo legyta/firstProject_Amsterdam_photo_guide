@@ -1,0 +1,457 @@
+/* Support for ms and opera browsers */
+@-o-viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/* Navigation bar styling */
+
+ul {
+  font-size: 14pt;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Logo on tablets (nav bar)*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+/* Logo on laptops (nav bar)*/
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+/* Index page styling */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+}
+
+.bannertext {
+  font-family: "cormorant garamond";
+  font-size: 0.8rem;
+  color: #000000;
+  background-color: #f5f5dc;
+  border-radius: 15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  text-align: center;
+}
+
+/* Banner text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Banner text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div p {
+    font-size: 1.8rem;
+  }
+}
+
+/* Animation for news feed */
+
+div h4 {
+  font-size: 1rem;
+  color: #800000;
+  animation-name: newsfeed;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes newsfeed {
+  from {
+    margin-left: 0%;
+  }
+
+  to {
+    margin-left: 54%;
+  }
+}
+/* News feed on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div h4 {
+    font-size: 1.5rem;
+  }
+
+  @keyframes newsfeed {
+    from {
+      margin-left: 0%;
+    }
+
+    to {
+      margin-left: 65%;
+    }
+  }
+}
+
+/* News feed on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div h4 {
+    font-size: 2rem;
+  }
+
+  @keyframes newsfeed {
+    from {
+      margin-left: 0%;
+    }
+
+    to {
+      margin-left: 75%;
+    }
+  }
+}
+
+/* Formatting for news feed title */
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  width: 80%;
+  height: 80%;
+}
+
+.row .col {
+  left: 20%;
+}
+
+/* News feed positioning on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
+}
+
+/* News feed positioning on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row .col {
+    left: 0;
+  }
+}
+
+h3 a {
+  color: #800000;
+  font-weight: bolder;
+  font-family: "cormorant garamond";
+  font-size: 1rem;
+}
+
+/* News feed title on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h3 a {
+    font-size: 1.5rem;
+  }
+}
+
+/* News feed title on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  h3 a {
+    font-size: 2rem;
+  }
+}
+
+/* News text */
+
+div h5 {
+  font-size: 1rem;
+}
+
+/* News text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  div h5 {
+    font-size: 1.2rem;
+  }
+}
+
+/* News text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  div h5 {
+    font-size: 1.6rem;
+  }
+}
+
+/*Contact Us Form*/
+
+.contactForm h2 {
+  justify-content: center;
+  font-family: "cormorant garamond";
+  text-align: center;
+}
+
+.sectionContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  font-family: "cormorant garamond";
+  font-size: 1rem;
+}
+
+/* Contact us Section on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionContact {
+    font-size: 1.2rem;
+  }
+}
+
+/* Contact us Section on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .sectionContact {
+    font-size: 1.4rem;
+  }
+}
+
+/* Contact us form styling */
+input[type="text"] {
+  border: 0.05rem solid #000000;
+  width: 350px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: #008000;
+  background-color: #ffe4e1;
+  font-family: "cormorant garamond";
+  font-size: 14pt;
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  margin: 0 70px;
+}
+
+input[type="submit"]:hover {
+  background: #808080;
+  color: #ffe4e1;
+}
+
+.sectionContact h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+/* Contact us font on laptops */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionContact h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Contact us font on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  .sectionContact h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Social media icons */
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  font-family: "cormorant garamond";
+  font-size: 2rem;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: #ffffff;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: #ffffff;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: #ffffff;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: #ffffff;
+}
+
+/* Footer styling*/
+
+.wildlogo {
+  height: 50px;
+  width: 50px;
+}
+
+.footer p {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer {
+  background-color: #ffe4e1;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+/* Footer text on tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer text on laptops */
+
+@media screen and (min-width: 1025px) and (max-width: 1824px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/*food page specials*/
+
+.foodpg {
+  padding-top: 30pt;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #191414;
+}
+.foodh3 {
+  text-align: center;
+  font-size: 50px;
+  /* this part is for the desktops*/
+}
+.oil {
+  width: 350px;
+  border-radius: 15px;
+}
+.fries {
+  width: 350px;
+  border-radius: 15px;
+}
+.beers {
+  width: 350px;
+  border-radius: 15px;
+}
+.coffee {
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+#sweet .poffer p {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.black p {
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+  width: 800px;
+}
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+}
+.foodp p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}
