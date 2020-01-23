@@ -37,8 +37,9 @@
   margin-right: auto;
 }
 
-div {
-  font-size: 15pt;
+.foods {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 100pt;
   display: inline-block;
   padding: 55px;
 }
@@ -76,6 +77,38 @@ ul {
   font-size: 20pt;
 }
 
+.foodtext {
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15pt;
+  width: 300px;
+}
+.drinks {
+  font-family: "Cormorant Garamond", serif;
+  padding-left: 200px;
+  font-size: 15pt;
+  width: 1100px;
+  text-align: initial;
+}
+
+.poff {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+}
+/*
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  font-size: 20pt;
+}
+
 li {
   display: inline;
   border-radius: 15px;
@@ -87,7 +120,7 @@ li a {
   font-family: "cormorant garamond";
   color: #000000;
   margin: 4px;
-}
+}*/
 /* this part is for the tablet*/
 @media only screen and (max-width: 1200px) {
   .oil {
@@ -109,38 +142,98 @@ li a {
     margin-left: 50px;
     border-radius: 15px;
   }
-  body {
+  .food1 {
     font-family: "Cormorant Garamond", serif;
     background-color: ghostwhite;
     font-size: 10pt;
   }
-  .foodpg {
+  .head1 {
     padding-top: 50pt;
     font-size: 40pt;
   }
-  .foodh3 {
+  .foodh {
     font-size: 30px;
   }
-  .foodpg {
+  .foodtext {
     padding-right: 10px;
     padding-left: 10px;
-    text-align: center;
+    text-align: initial;
     font-size: 12pt;
     width: 200px;
+    padding-top: 10px;
   }
   .poffert {
     padding-left: 100px;
     padding-right: 100px;
-
-    width: 600px;
   }
-  .black {
-    padding-left: 100px;
-    padding-right: 100px;
-
-    width: 600px;
+  .drinks {
+    padding-right: 8px;
+    padding-left: 70px;
+    text-align: initial;
+    font-size: 12pt;
+    width: 300px;
   }
+  /*this is for phones */
+  @media only screen and (max-width: 479px) {
+    .oil {
+      text-align: center;
+      width: 150px;
+    }
+    .fries {
+      width: 150px;
+    }
+    .beers {
+      width: 150px;
+    }
+    .coffee {
+      width: 150px;
+    }
+    .poff {
+      width: 150px;
+    }
+    .food1 {
+      font-family: "Cormorant Garamond", serif;
+      background-color: ghostwhite;
+      font-size: 8pt;
+    }
+    .head1 {
+      padding-top: 50pt;
+      font-size: 20pt;
+    }
+    .foodh {
+      font-size: 20px;
+    }
+    .foodtext {
+      padding-right: 8px;
+      padding-left: 8px;
+      text-align: center;
+      font-size: 8pt;
+    }
+    .poffert {
+      padding-left: 10px;
+      width: 100px;
+    }
+    .drinks {
+      padding-right: 8px;
+      padding-left: 8px;
+      text-align: center;
+      font-size: 8pt;
+    }
+  }
+  /* Navigation bar styling 
+
+ul {
+  font-size: 14pt;
+  color: pink;
 }
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+*/
+}
+
 @media only screen and (max-width: 500px) {
   .oil {
     text-align: center;
