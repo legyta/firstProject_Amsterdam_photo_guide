@@ -1,25 +1,30 @@
-body {
+.body-places {
   background-color: snow;
   font-family: "Cormorant Garamond", serif;
   padding: 20px;
 }
 
-/* here insert the nav from index html */
-nav {
-  height: 30px;
-  padding-bottom: 20px;
-}
 
-/* header for places page   */
 .header {
   font-family: "Cormorant Garamond", Serif;
   font-size: 40px;
   text-align: center;
   background: white;
   border-radius: 15px;
-    }
+}
 
-/* section places page*/
+.polaroid {
+  width: 350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 .places {
   /*display: inline-flexbox;*/
   display: flex;
@@ -30,58 +35,24 @@ nav {
 }
 
 
-/* card images for places page */
-div.polaroid {
-  width: 350px;
-  background-color: whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 30px;
+.subhead2 {
+  display: flex ;
+  justify-content: center;
+  flex-direction: row ;
+  font-size: 20px;
 }
-
-/* description of images under card images-places page*/
-div.description {
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 1.5em;
-}
-
-/* div class of unique places*/
 .unique_places {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
-/* image style for places page*/
-.img_places {
+.image-places {
   width: 350px;
 }
 
-/* /* add media screen specificity**/
-/*subhead of unique places*/
-.unique_subhead{
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-  background-color: white;
-  margin-bottom: 6px;
-  padding: 0%;
-}
 
 
 
 
-
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: white;
-  margin-top: 20px;
-  border-radius: 15px;
-}
-
-/* logo created source - places page */
-.logo {
-  width: 100px;
-  height: 100px;
-}

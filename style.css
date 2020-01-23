@@ -397,18 +397,12 @@ p {
     font-size: 1.2rem;
   }
 }
-<<<<<<< HEAD
 .food1 {
   font-family: "Cormorant Garamond", serif;
   background-color: ghostwhite;
   font-size: 15pt;
 }
 .head1 {
-=======
-
-/*food page specials*/
-.foodpg {
->>>>>>> 69731312398429fef893c251db70e48468edaf57
   padding-top: 30pt;
   font-family: "Cormorant Garamond", serif;
   text-align: center;
@@ -440,19 +434,11 @@ p {
   margin-left: 200px;
   margin-right: auto;
 }
-<<<<<<< HEAD
 
 .foods {
   font-size: 15pt;
   display: initial;
   padding: 55px;
-=======
-.poffer p {
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
-  width: 800px;
->>>>>>> 69731312398429fef893c251db70e48468edaf57
 }
 .foodtext {
   padding-left: 25px;
@@ -590,4 +576,57 @@ li a {
     padding-left: 10px;
     width: 200px;
   }
+}
+
+/*places style*/
+.body-places {
+  background-color: snow;
+  font-family: "Cormorant Garamond", serif;
+  padding: 20px;
+}
+
+.header {
+  font-family: "Cormorant Garamond", Serif;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+}
+
+.polaroid {
+  width: 350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.places {
+  /*display: inline-flexbox;*/
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.subhead2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+.unique_places {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image-places {
+  width: 350px;
 }
