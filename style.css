@@ -664,9 +664,14 @@ p {
   font-family: "Cormorant Garamond", serif;
   border-radius: 15px;
 }
-.map {
+.maps {
   padding-top: 15pt;
-  width: 50px;
+  padding-bottom: 15pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  width: 450px;
+  height: 200px;
 }
 .tours1 {
   background-color: snow;
@@ -716,9 +721,14 @@ p {
     border-radius: 15px;
     max-width: 100%;
   }
-  .map {
+  .maps {
     padding-top: 15pt;
-    max-width: 100%;
+    padding-bottom: 15pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    width: 1000px;
+    height: 200px;
   }
 
   #canals {
@@ -786,9 +796,14 @@ p {
     border-radius: 15px;
     max-width: 100%;
   }
-  .map {
+  .maps {
     padding-top: 15pt;
-    max-width: 100%;
+    padding-bottom: 15pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    width: 1400px;
+    height: 300px;
   }
   .tours1 {
     background-color: snow;
